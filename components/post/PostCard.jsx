@@ -26,7 +26,7 @@ export default function PostCard() {
           </PostFooter>
         </PostContent>
         <PostPicture>
-          <Image src={'/post.jpg'} width='150' height='150' />
+          <Image src={'/post.jpg'} width='200' height='200' layout='responsive' />
         </PostPicture>
       </Post>
       

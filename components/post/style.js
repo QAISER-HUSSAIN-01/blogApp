@@ -20,7 +20,12 @@ export const PostContent = styled(Box)(({theme})=>({
 }))
 
 export const PostPicture = styled(Box)(({theme})=>({
-  
+  width:'150px',
+  height:'150px',
+  [theme.breakpoints.down('sm')]:{
+    width:'120px',
+    height:'120px',
+  }
 }))
 
 export const PostHeader = styled(Box)(({theme})=>({

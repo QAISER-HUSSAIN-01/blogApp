@@ -10,10 +10,9 @@ export default function DiscoverMore() {
       <Box sx={{ display: 'flex',width:{md:offset > 886 ? '31%' : '100%',sm:'100%',xs:'100%'}, gap: 3, flexDirection: 'column',
        position: {md:offset > 886 ? 'fixed' : 'relative',sm:'relative',xs:'relative'},
        top:{md:offset > 886 ? '100px' :'0',sm:'0',xs:'0'},
-      //  left:{md:offset > 886 ? '0px':'0',sm:'0',xs:'0'},
        right:{md:offset > 886 ? '60px' : '0',sm:'0',xs:'0'}
        }}>
-      <Typography>Discover more of what matters to you {offset}</Typography>
+      <Typography>Discover more of what matters to you </Typography>
       <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 2 }}>
         <Chip variant='filled' label='Programming' />
         <Chip variant='filled' label='Python' />
