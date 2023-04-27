@@ -6,13 +6,13 @@ import { Box, Divider } from '@mui/material'
 export default function Home() {
   return (
     <>
-     <Banner />
-     <Trending />
-     <Divider />
-     <Box sx={{display:'flex',gap:10,margin:'50px 0',flexDirection:{sm:'column-reverse',md:'row'}}}>
-      <Post />
-      <DiscoverMore />
-     </Box>
+      <Banner />
+      <Trending />
+      <Divider />
+      <Box sx={{ display: 'flex', gap: 10, margin: '50px 0', flexDirection: { xs: 'column-reverse', sm: 'column-reverse', md: 'row' } }}>
+        <Post />
+        <DiscoverMore />
+      </Box>
     </>
   )
 }
